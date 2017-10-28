@@ -3,7 +3,7 @@ b=5
 r1=sum(a,b)
 r2=a-b
 r3=a*b
-r4=abs(a-b)
+r4=a/b
 v1=c(r1,r2,r3,r4)
 a**b ->v1[5]
 v1

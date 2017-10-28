@@ -125,11 +125,11 @@ b=5
 r1=sum(a,b)
 r2=a-b
 r3=a*b
-r4=abs(a-b)
+r4=a/b
 v1=c(r1,r2,r3,r4)
 a**b -&gt;v1[5]
 v1</code></pre>
-<pre><code>## [1]  7 -3 10  3 32</code></pre>
+<pre><code>## [1]  7.0 -3.0 10.0  0.4 32.0</code></pre>
 <pre class="r"><code>v2=c(&quot;sum&quot;, &quot;dif&quot;, &quot;product&quot;, &quot;ratio&quot;,&quot;potenz&quot;)
 v2</code></pre>
 <pre><code>## [1] &quot;sum&quot;     &quot;dif&quot;     &quot;product&quot; &quot;ratio&quot;   &quot;potenz&quot;</code></pre>
@@ -137,11 +137,11 @@ v2</code></pre>
 c(&quot;results&quot;, &quot;operations&quot;) -&gt; colnames(df) 
 df</code></pre>
 <pre><code>##   results operations
-## 1       7        sum
-## 2      -3        dif
-## 3      10    product
-## 4       3      ratio
-## 5      32     potenz</code></pre>
+## 1     7.0        sum
+## 2    -3.0        dif
+## 3    10.0    product
+## 4     0.4      ratio
+## 5    32.0     potenz</code></pre>
 <pre class="r"><code>df[3,1]</code></pre>
 <pre><code>## [1] 10</code></pre>
 
